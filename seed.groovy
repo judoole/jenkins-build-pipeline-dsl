@@ -1,4 +1,4 @@
-def jobName = 'example'
+def jobName = 'newexample'
 
 job(jobName) {
 }
