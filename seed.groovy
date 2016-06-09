@@ -1,5 +1,7 @@
 def jobName = 'anotherjob'
 
 job(jobName) {
-  sh 'echo hello world'
+  steps {
+      shell('hello world')
+  }
 }
