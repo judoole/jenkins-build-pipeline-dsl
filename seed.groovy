@@ -1,7 +1,7 @@
-def jobName = 'newexample'
+def jobName = 'HelloWorld'
 
 job(jobName) {
   steps{
-    shell("From new example")
+    shell("echo Hello world")
   }
 }
