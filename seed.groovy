@@ -1,4 +1,7 @@
-def jobName = 'example'
+def jobName = 'newexample'
 
 job(jobName) {
+  steps{
+    shell("From new example")
+  }
 }
